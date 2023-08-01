@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="./TaxCalculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tax Calculator</h1>
+        <hr>
+        <input type="text" id="employeeName" class="userinput" placeholder="Enter employeeName"><br>  
+        <input type="text" id="employeeSalary" class="userinput" placeholder="Employee Salary"><br><br>
+        <button id="btn" onclick="taxCalculator()">Calculate Tax</button><br><br>
+        <input type="text" id="eName" placeholder="Name of an Employee"><br>
+        <input type="text" id="TD1" placeholder="Tax Daduction one"><br>
+        <input type="text" id="TD2" placeholder="Tax Deduction Two"><br>
+        <input type="text" id="TD3" placeholder="Total Tax Deduction"><br>
+        <textarea  id="finalStatement" cols="40" rows="4"></textarea>
+    
+    </div>
+<script src="./TaxCalculator.js"></script>
+</body>
+</html>
